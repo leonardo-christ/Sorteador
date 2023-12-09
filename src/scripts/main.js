@@ -7,7 +7,6 @@ function sortear() {
     resultadovalores.innerHTML = ''
     for(let i = 0; i < totalresultados; i++) {
         const resultado = Math.floor(Math.random() * (maiorvalor - menorvalor + 1 )) + menorvalor
-        console.log (resultado)
     
         const resultadoHTML = document.createElement('div')
         resultadoHTML.classList.add('valor')
